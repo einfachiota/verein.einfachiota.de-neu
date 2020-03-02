@@ -2,7 +2,7 @@
   <nuxt />
 </template>
 
-<style>
+<style lang="scss">
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,800&display=swap");
 html {
   font-family: "Open Sans";
@@ -20,5 +20,64 @@ html {
 *:after {
   box-sizing: border-box;
   margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-weight: 800;
+  font-family: "Open Sans", serif;
+}
+h1 {
+  font-size: 62px;
+  line-height: 1.25;
+}
+h2 {
+  font-size: 42px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+a {
+  color: var(--primary);
+}
+:root {
+  --primary: rgba(0, 183, 197, 1);
+  --primary_50: rgba(0, 183, 197, 0.5);
+  --primary_0: rgba(0, 183, 197, 0);
+  --primary_light: #00dbeb;
+  --primary-darken: #03a3af;
+  --secondary: #0b5d9e;
+  --secondary-2: #5ab0b2;
+  --dark: #3d4449;
+  --dark-transp: rgba(61, 68, 73, 0.5);
+  --darker: #0f3535;
+  --gray: #e2e2e2;
+  --light: rgba(234, 235, 243, 1);
+  --light_50: rgba(234, 235, 243, 0.5);
+  --white: #ffffff;
+  --white_5: rgba(255, 255, 255, 0.05);
+  --white_10: rgba(255, 255, 255, 0.1);
+  --white_25: rgba(255, 255, 255, 0.25);
+  --white_50: rgba(255, 255, 255, 0.5);
+  --red: #f16465;
+  --orange: #e69255;
+  --yellow: #e6be54;
+  --purple: #8f60a8;
+  --border-radius: 10px;
+  --border-radius-sm: 5px;
+  --box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+  --transition: all 0.3s ease-in-out;
 }
 </style>
