@@ -3,10 +3,10 @@
     <div v-for="(item, index) in items" :key="index" class="content">
       <div class="container">
         <div :class="{ inverted: item.layout_inverted }" class="row">
-          <div class="col center-center "></div>
+          <div class="col center-center"></div>
           <div class="col">
-            <h2>{{ item.heading }}</h2>
-            <p v-html="item.description"></p>
+            <h2>{{ currentPage.title }}</h2>
+            <p>{{currentPage.description}}</p>
           </div>
         </div>
       </div>
@@ -15,9 +15,9 @@
 </template>
 
 <script>
-import Illustration from "./Illustration";
 export default {
-  components: { Illustration },
+  components: {},
+  props: ["currentPage"],
   data() {
     return {
       items: [

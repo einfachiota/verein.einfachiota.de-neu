@@ -10,14 +10,14 @@
         <div class="mobile-btn__line"></div>
       </div>
       <div class="menu">
-        <div class="menu__item active">
-          <span>Leitbild</span>
-        </div>
-        <div class="menu__item">
-          <span>Struktur</span>
-        </div>
-        <div class="menu__item">
-          <span>Referate</span>
+        <div
+          v-for="item in menuData"
+          :key="item.name"
+          @click="setCurrentPage(item.pageId)"
+          class="menu__item"
+          v-bind:class="{ active: currentPageId === item.pageId }"
+        >
+          <span>{{ item.name }}</span>
         </div>
       </div>
     </div>
@@ -38,9 +38,7 @@
             <a href="https://shop.einfachIOTA.de" target="_blank">Verein</a>
           </div>
           <div class="menu__item">
-            <a href="https://community.einfachIOTA.de" target="_blank"
-              >Community</a
-            >
+            <a href="https://community.einfachIOTA.de" target="_blank">Community</a>
           </div>
         </div>
         <div class="socials">
@@ -55,10 +53,7 @@
             </a>
           </div>
           <div class="socials__item">
-            <a
-              href="https://www.youtube.com/channel/UClEhfr5oh-bbH42XoXO4Pqw"
-              target="_blank"
-            >
+            <a href="https://www.youtube.com/channel/UClEhfr5oh-bbH42XoXO4Pqw" target="_blank">
               <img src="~/assets/icons/youtube_large.svg" alt />
             </a>
           </div>
@@ -71,10 +66,30 @@
 <script>
 export default {
   components: {},
+  props: ["currentPage", "currentPageId"],
   data() {
     return {
-      navOpen: false
+      navOpen: false,
+      menuData: [
+        {
+          name: "Leitbild",
+          pageId: 0
+        },
+        {
+          name: "Struktur",
+          pageId: 1
+        },
+        {
+          name: "Referate",
+          pageId: 2
+        }
+      ]
     };
+  },
+  methods: {
+    setCurrentPage(id) {
+      this.$emit("setCurrentPage", id);
+    }
   }
 };
 </script>
