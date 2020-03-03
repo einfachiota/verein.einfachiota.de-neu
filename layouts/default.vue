@@ -3,7 +3,7 @@
 </template>
 
 <style lang="scss">
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,800&display=swap");
 html {
   font-family: "Open Sans";
   font-size: 16px;
@@ -45,6 +45,7 @@ h4 {
   font-size: 24px;
 }
 p {
+  font-weight: 300;
   font-size: 16px;
   line-height: 1.5;
 }

@@ -1,13 +1,17 @@
 <template>
   <div class="home">
     <Navigation />
+    <Illustration />
+    <Content />
   </div>
 </template>
 
 <script>
 import Navigation from "../components/Navigation.vue";
+import Illustration from "../components/Illustration.vue";
+import Content from "../components/Content.vue";
 export default {
-  components: { Navigation }
+  components: { Navigation, Illustration, Content }
 };
 </script>
 
