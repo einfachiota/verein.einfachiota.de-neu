@@ -27,13 +27,6 @@ export default {
           description:
             "Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben.",
           icon: "eimag-1--EN.svg"
-        },
-        {
-          layout_inverted: false,
-          heading: "Leitbild",
-          description:
-            "Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben.",
-          icon: "eimag-1--EN.svg"
         }
       ]
     };

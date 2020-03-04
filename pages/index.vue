@@ -34,7 +34,7 @@ export default {
           visionState: {
             active: true,
             scale: 10,
-            fill: 1
+            fill: 100
           },
           boardState: {
             active: false,
@@ -47,6 +47,10 @@ export default {
           communityState: {
             active: false,
             scale: 0
+          },
+          departmentState: {
+            active: false,
+            activeDepartmentId: null
           }
         },
         {
@@ -57,7 +61,7 @@ export default {
           visionState: {
             active: true,
             scale: 10,
-            fill: 0.25
+            fill: 25
           },
           boardState: {
             active: false,
@@ -70,6 +74,10 @@ export default {
           communityState: {
             active: false,
             scale: 0
+          },
+          departmentState: {
+            active: false,
+            activeDepartmentId: null
           }
         },
         {
@@ -80,7 +88,7 @@ export default {
           visionState: {
             active: true,
             scale: 10,
-            fill: 0.5
+            fill: 50
           },
           boardState: {
             active: false,
@@ -93,6 +101,10 @@ export default {
           communityState: {
             active: false,
             scale: 0
+          },
+          departmentState: {
+            active: false,
+            activeDepartmentId: null
           }
         },
         {
@@ -103,7 +115,7 @@ export default {
           visionState: {
             active: true,
             scale: 10,
-            fill: 0.75
+            fill: 75
           },
           boardState: {
             active: false,
@@ -116,6 +128,10 @@ export default {
           communityState: {
             active: false,
             scale: 0
+          },
+          departmentState: {
+            active: false,
+            activeDepartmentId: null
           }
         },
         {
@@ -126,7 +142,7 @@ export default {
           visionState: {
             active: true,
             scale: 10,
-            fill: 1
+            fill: 100
           },
           boardState: {
             active: false,
@@ -139,6 +155,10 @@ export default {
           communityState: {
             active: false,
             scale: 0
+          },
+          departmentState: {
+            active: false,
+            activeDepartmentId: null
           }
         },
         {
@@ -149,7 +169,7 @@ export default {
           visionState: {
             active: false,
             scale: 1,
-            fill: 1
+            fill: 100
           },
           boardState: {
             active: false,
@@ -162,6 +182,10 @@ export default {
           communityState: {
             active: false,
             scale: 1
+          },
+          departmentState: {
+            active: false,
+            activeDepartmentId: null
           }
         },
         {
@@ -172,7 +196,7 @@ export default {
           visionState: {
             active: false,
             scale: 5,
-            fill: 1
+            fill: 100
           },
           boardState: {
             active: true,
@@ -185,6 +209,10 @@ export default {
           communityState: {
             active: false,
             scale: 0
+          },
+          departmentState: {
+            active: false,
+            activeDepartmentId: null
           }
         },
         {
@@ -195,7 +223,7 @@ export default {
           visionState: {
             active: false,
             scale: 3,
-            fill: 1
+            fill: 100
           },
           boardState: {
             active: true,
@@ -208,6 +236,10 @@ export default {
           communityState: {
             active: false,
             scale: 0
+          },
+          departmentState: {
+            active: false,
+            activeDepartmentId: null
           }
         },
         {
@@ -218,7 +250,7 @@ export default {
           visionState: {
             active: false,
             scale: 1,
-            fill: 1
+            fill: 100
           },
           boardState: {
             active: false,
@@ -231,6 +263,10 @@ export default {
           communityState: {
             active: true,
             scale: 1
+          },
+          departmentState: {
+            active: false,
+            activeDepartmentId: null
           }
         },
         {
@@ -241,7 +277,7 @@ export default {
           visionState: {
             active: false,
             scale: 1,
-            fill: 1
+            fill: 100
           },
           boardState: {
             active: false,
@@ -254,6 +290,199 @@ export default {
           communityState: {
             active: true,
             scale: 1
+          },
+          departmentState: {
+            active: true,
+            activeDepartmentId: null
+          }
+        },
+        {
+          title: "Vorsitz",
+          description:
+            "Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben. Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben.",
+          navState: 2,
+          visionState: {
+            active: false,
+            scale: 1,
+            fill: 100
+          },
+          boardState: {
+            active: false,
+            scale: 1
+          },
+          membersState: {
+            active: false,
+            scale: 1
+          },
+          communityState: {
+            active: true,
+            scale: 1
+          },
+          departmentState: {
+            active: true,
+            activeDepartmentId: 0
+          }
+        },
+        {
+          title: "Finanzen",
+          description:
+            "Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben. Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben.",
+          navState: 2,
+          visionState: {
+            active: false,
+            scale: 1,
+            fill: 100
+          },
+          boardState: {
+            active: false,
+            scale: 1
+          },
+          membersState: {
+            active: false,
+            scale: 1
+          },
+          communityState: {
+            active: true,
+            scale: 1
+          },
+          departmentState: {
+            active: true,
+            activeDepartmentId: 1
+          }
+        },
+        {
+          title: "Community",
+          description:
+            "Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben. Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben.",
+          navState: 2,
+          visionState: {
+            active: false,
+            scale: 1,
+            fill: 100
+          },
+          boardState: {
+            active: false,
+            scale: 1
+          },
+          membersState: {
+            active: false,
+            scale: 1
+          },
+          communityState: {
+            active: true,
+            scale: 1
+          },
+          departmentState: {
+            active: true,
+            activeDepartmentId: 2
+          }
+        },
+        {
+          title: "Events",
+          description:
+            "Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben. Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben.",
+          navState: 2,
+          visionState: {
+            active: false,
+            scale: 1,
+            fill: 100
+          },
+          boardState: {
+            active: false,
+            scale: 1
+          },
+          membersState: {
+            active: false,
+            scale: 1
+          },
+          communityState: {
+            active: true,
+            scale: 1
+          },
+          departmentState: {
+            active: true,
+            activeDepartmentId: 3
+          }
+        },
+        {
+          title: "Design",
+          description:
+            "Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben. Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben.",
+          navState: 2,
+          visionState: {
+            active: false,
+            scale: 1,
+            fill: 100
+          },
+          boardState: {
+            active: false,
+            scale: 1
+          },
+          membersState: {
+            active: false,
+            scale: 1
+          },
+          communityState: {
+            active: true,
+            scale: 1
+          },
+          departmentState: {
+            active: true,
+            activeDepartmentId: 4
+          }
+        },
+        {
+          title: "Development",
+          description:
+            "Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben. Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben.",
+          navState: 2,
+          visionState: {
+            active: false,
+            scale: 1,
+            fill: 100
+          },
+          boardState: {
+            active: false,
+            scale: 1
+          },
+          membersState: {
+            active: false,
+            scale: 1
+          },
+          communityState: {
+            active: true,
+            scale: 1
+          },
+          departmentState: {
+            active: true,
+            activeDepartmentId: 5
+          }
+        },
+        {
+          title: "Redaktion",
+          description:
+            "Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben. Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben.",
+          navState: 2,
+          visionState: {
+            active: false,
+            scale: 1,
+            fill: 100
+          },
+          boardState: {
+            active: false,
+            scale: 1
+          },
+          membersState: {
+            active: false,
+            scale: 1
+          },
+          communityState: {
+            active: true,
+            scale: 1
+          },
+          departmentState: {
+            active: true,
+            activeDepartmentId: 6
           }
         }
       ],
