@@ -15,7 +15,7 @@
           :key="item.name"
           @click="setCurrentPage(item.pageId)"
           class="menu__item"
-          v-bind:class="{ active: currentPage.navState === item.pageId }"
+          v-bind:class="{ active: currentPage.navState === item.activeNavItem }"
         >
           <span>{{ item.name }}</span>
         </div>
@@ -73,15 +73,18 @@ export default {
       menuData: [
         {
           name: "Leitbild",
+          activeNavItem: 0,
           pageId: 0
         },
         {
           name: "Struktur",
-          pageId: 1
+          activeNavItem: 1,
+          pageId: 5
         },
         {
           name: "Referate",
-          pageId: 2
+          activeNavItem: 2,
+          pageId: 9
         }
       ]
     };

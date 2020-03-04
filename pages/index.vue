@@ -176,7 +176,7 @@ export default {
           },
           boardState: {
             active: true,
-            scale: 1
+            scale: 2.5
           },
           membersState: {
             active: false,
