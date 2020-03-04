@@ -30,7 +30,7 @@ export default {
           title: "Leitbild",
           description:
             "Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben.",
-          navState: 1,
+          navState: 0,
           visionState: {
             active: true,
             scale: 10,
@@ -53,7 +53,7 @@ export default {
           title: "Vision",
           description:
             "Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben.",
-          navState: 1,
+          navState: 0,
           visionState: {
             active: true,
             scale: 10,
@@ -76,7 +76,7 @@ export default {
           title: "Mission",
           description:
             "Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben.",
-          navState: 1,
+          navState: 0,
           visionState: {
             active: true,
             scale: 10,
@@ -99,7 +99,7 @@ export default {
           title: "Ziele",
           description:
             "Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben.",
-          navState: 1,
+          navState: 0,
           visionState: {
             active: true,
             scale: 10,
@@ -122,7 +122,7 @@ export default {
           title: "Werte",
           description:
             "Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben. Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben.",
-          navState: 1,
+          navState: 0,
           visionState: {
             active: true,
             scale: 10,
@@ -145,7 +145,7 @@ export default {
           title: "Struktur",
           description:
             "Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben. Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben.",
-          navState: 2,
+          navState: 1,
           visionState: {
             active: false,
             scale: 1,
@@ -168,7 +168,7 @@ export default {
           title: "Vorstand",
           description:
             "Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben. Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben.",
-          navState: 2,
+          navState: 1,
           visionState: {
             active: false,
             scale: 5,
@@ -191,7 +191,7 @@ export default {
           title: "Mitglieder",
           description:
             "Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben. Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben.",
-          navState: 2,
+          navState: 1,
           visionState: {
             active: false,
             scale: 3,
@@ -214,7 +214,7 @@ export default {
           title: "Community",
           description:
             "Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben. Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben.",
-          navState: 2,
+          navState: 1,
           visionState: {
             active: false,
             scale: 1,
@@ -237,7 +237,7 @@ export default {
           title: "Referate",
           description:
             "Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben. Unsere Vision ist es eine breite Öffentlichkeit um IOTA aufzubauen und die Anwendung von IOTA als Technologie voranzutreiben.",
-          navState: 3,
+          navState: 2,
           visionState: {
             active: false,
             scale: 1,

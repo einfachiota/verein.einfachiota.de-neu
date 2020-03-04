@@ -15,7 +15,7 @@
           :key="item.name"
           @click="setCurrentPage(item.pageId)"
           class="menu__item"
-          v-bind:class="{ active: currentPageId === item.pageId }"
+          v-bind:class="{ active: currentPage.navState === item.pageId }"
         >
           <span>{{ item.name }}</span>
         </div>
