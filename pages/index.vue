@@ -300,6 +300,8 @@ export default {
   font-size: 14px;
   text-decoration: none;
   transition: var(--transition);
+  outline: none;
+  border: none;
   img {
     margin-right: 8px;
   }
